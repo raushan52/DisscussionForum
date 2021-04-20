@@ -1,0 +1,59 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Shiro",
+      "comment": "cmmh da djs",
+      "id": 1
+    },
+    {
+      "title": "toJson not working properly json serializer Unhandled Exception: Invalid argument: Instance of 'DietModel'",
+      "body": "0\n\n\nI am trying to save data on firestore but getting error while saving in toJson. i have created two models diet-model and TargetModel to store on firestore using json_serializable: ^4.0.0 and json_annotation: ^4.0.0 . TargetModel have List of diet models. error is run time error",
+      "author": "Roushan",
+      "id": 6
+    },
+    {
+      "title": "New Blog",
+      "body": "this i have created a new one ",
+      "author": "Pallavi",
+      "id": 7
+    },
+    {
+      "title": "2345",
+      "body": "3245",
+      "author": "Isha",
+      "id": 8
+    },
+    {
+      "title": "kfjhaldfk",
+      "body": "dkjfahljkfa",
+      "author": "Roushan",
+      "id": 9
+    },
+    {
+      "title": "How to Handled Single Quotes in JSON Array",
+      "body": "If I select the statement error will be thrown:\n\nIncorrect syntax near '7'.\n\nHow to handle this JSON input value.\n\nExample:\n\nDECLARE @MemberData VARCHAR(MAX)\nSELECT @MemberData ='{\"MemberData\":{\"gamingEmailOptIn\":0,\"mappedSmsOptIn\":\"['7','0']\"}}'\nSELECT @MemberData",
+      "author": "Kazama",
+      "id": 10
+    },
+    {
+      "title": "OAuth Ionic app running in android/iOS does not work",
+      "body": "I'm currently learning Ionic and OAuth2, I managed to get it working in the web app version, but running it from Android Studio or Xcode returns an error after selecting the Google account I want to log in with. \"Something went wrong\" is the exception I get from OAuth, so I don't have much information. I like to believe that it has something to do with the Google Cloud settings, in the consent area. Since the web view runs at localhost I couldn't use it as an authorized domain which has to be a top-level domain.\n\nI'm using Ionic+react with capacitor.",
+      "author": "Massao",
+      "id": 12
+    },
+    {
+      "title": "How to use View Binding on BottomSheetDialog",
+      "body": "0\n\n\nI'm trying to make a BottomSheetDialog inside my MainActivity, but right now I'm using synthetic to bind my views. But now I'm stuck with how to attach View Binding to my BottomSheetDialog.\n\nHere's what I do, using synthetic.\n\ndialog = BottomSheetDialog(this, R.style.BottomDialogStyle)\ndialogView = LayoutInflater.from(this).inflate(R.layout.test_dialog, dialog.mainContainer, false)\ndialog.setContentView(dialogView)\nAnd here is what's confusing me with View Binding\n\ndialog = BottomSheetDialog(this, R.style.BottomDialogStyle)\nbinding = TestDialogBinding.inflate(?)\ndialog.setContentView(binding.root)\nFrom my example above, I'm wondering what I should fill the parameters with, because unlike in an activity where I could just fill that parameter with layoutInflater or in a RecyclerView Adapter where I cant fill that parameter with LayoutInflater.from(parent.context), parent, and false.\n\nandroid",
+      "author": "Massao",
+      "id": 13
+    },
+    {
+      "title": "Laravel Validate Field X if Field Y == “something”",
+      "body": "I have a form in Laravel for which I need help with the validation of the fields. The form has 3 text fields and 1 drop-down button. Now 2 out of the 3 text fields are required only when the drop-down is set to a certain value.\n\nHere are my 3 text fields and the drop-down button code:\n\n<textarea class=\"form-control w-100 flex-fill instructions\" id=\"instructions-1\" name=\"instructions[]\" rows=\"4\" placeholder=\"Instructions\"></textarea>\n<button class=\"btn btn-secondary btn-md bg-white dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\" name=\"button[]\" id=\"button-1\" aria-haspopup=\"true\" aria-expanded=\"false\">Model</button>\n<div class=\"dropdown-menu\" aria-labelledby=\"button-1\"><a class=\"dropdown-item\" id=\"dropdown-item-model-1\" href=\"#\">Model</a><a class=\"dropdown-item\" id=\"dropdown-item-engenius-1\" href=\"#\">Engenius</a>\n<input type=\"text\" class=\"text-body px-2 py-1 text\" name=\"model[]\" id=\"model-1\" value=\"\" placeholder=\"Enter Model\" />\n<input type=\"text\" class=\"text-body px-2 py-1 text\" name=\"pincode[]\" id=\"pincode-1\" value=\"\" placeholder=\"Enter Pincode\" />\nHere is my validation code:\n\n$validated = $request->validate([\n        'button.*' => 'required',\n        'instructions.*' => 'required|min:5',\n        'model.*' => 'required_if:button.*,Model|min:5',\n        'pincode.*' => 'required_if:button.*,Model|min:5',\n    ]);\nI need to validate the model and pincode text fields only if the drop-down button has a value Model. Please help.",
+      "author": "Isha",
+      "id": 15
+    }
+  ]
+}
